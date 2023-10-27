@@ -1,0 +1,31 @@
+<!-- // basic html page to send data to the client -->
+<html>
+
+<body>
+    <h1>Ross Hannon</h1>
+<!-- form with get action to input data to be retrived -->
+    <form action="/name" method="GET">
+        <label>Firstname: </label>
+        <input type="text" name="fname" value="Ross">
+
+        <label>Lastname: </label>
+        <input type="text" name="lname" value="Hannon">
+
+        <input type="submit" value="submit">
+    </form>
+
+    <h1>Post Method</h1>
+    <form action="/post" method="GET">
+        <label>User: </label>
+        <input type="text" name="user" value="Rocky">
+
+        <label>Password: </label>
+        <input type="text" name="pass" value="Tyson">
+
+        <input type="submit" value="submit">
+    </form>
+
+
+</body>
+
+</html>
